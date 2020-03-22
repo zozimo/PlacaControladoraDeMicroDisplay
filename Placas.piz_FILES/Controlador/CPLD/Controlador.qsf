@@ -1,0 +1,74 @@
+# Copyright (C) 1991-2008 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		Controlador_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+set_global_assignment -name FAMILY MAX3000A
+set_global_assignment -name DEVICE "EPM3064ALC44-4"
+set_global_assignment -name TOP_LEVEL_ENTITY Controlador
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 8.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:41:33  JUNE 27, 2008"
+set_global_assignment -name LAST_QUARTUS_VERSION 8.0
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_palace
+set_global_assignment -name SIMULATION_MODE TIMING
+set_global_assignment -name VHDL_FILE Controlador.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE Controlador.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Controlador_freerun.vwf
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name INCREMENTAL_COMPILATION OFF
+set_global_assignment -name OPTIMIZE_HOLD_TIMING OFF
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name MAX7000_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_26 -to COLUMNA[0]
+set_location_assignment PIN_28 -to COLUMNA[1]
+set_location_assignment PIN_29 -to COLUMNA[2]
+set_location_assignment PIN_31 -to COLUMNA[3]
+set_location_assignment PIN_37 -to COLUMNA[4]
+set_location_assignment PIN_16 -to COLUMNA[5]
+set_location_assignment PIN_41 -to COLUMNA[6]
+set_location_assignment PIN_14 -to COLUMNA[7]
+set_location_assignment PIN_11 -to COLUMNA[8]
+set_location_assignment PIN_12 -to FILA[0]
+set_location_assignment PIN_19 -to FILA[1]
+set_location_assignment PIN_18 -to FILA[2]
+set_location_assignment PIN_21 -to FILA[3]
+set_location_assignment PIN_20 -to FILA[4]
+set_location_assignment PIN_25 -to FILA[5]
+set_location_assignment PIN_24 -to FILA[6]
+set_location_assignment PIN_27 -to FILA[7]
+set_location_assignment PIN_8 -to VS
+set_location_assignment PIN_6 -to HS
+set_location_assignment PIN_9 -to LATCH
+set_location_assignment PIN_34 -to INV0
+set_location_assignment PIN_33 -to INV1
+set_location_assignment PIN_40 -to INV
+set_location_assignment PIN_4 -to CK0
+set_location_assignment PIN_5 -to CK1
+set_location_assignment PIN_1 -to CLR
+set_global_assignment -name MAX7000_ENABLE_JTAG_BST_SUPPORT OFF
+set_location_assignment PIN_43 -to CLKOSC
+set_location_assignment PIN_2 -to CLKUC
+set_location_assignment PIN_39 -to MODOLOAD
+set_location_assignment PIN_44 -to SLEEP
+set_global_assignment -name END_TIME "20 ms"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Controlador_freerun.vwf

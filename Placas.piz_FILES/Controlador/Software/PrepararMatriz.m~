@@ -1,0 +1,24 @@
+function Salida = PrepararMatriz(Matriz)
+
+[A B] = size(Matriz);
+
+if ~(A==225 && B==300)
+    disp('ERROR');
+    Salida = 0;
+    return;
+end
+
+Salida = uint8(zeros(240,328));
+
+% Salida = 255*ones(240,328);
+% for j = 2:2:328
+%     Salida(:,j) = zeros(240,1);
+% end
+
+for i = 1:A
+    for k = 1:B
+        Salida(i+8,k+16)=Matriz(i,k);
+    end
+end
+    
+Salida = uint8(Salida);

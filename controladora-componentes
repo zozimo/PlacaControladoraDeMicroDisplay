@@ -1,0 +1,55 @@
+	Valores/Códigos		Cantidades
+
+R1	1k		           	4
+R3	22		        	4
+R5	1.62k
+R8	10k		        	4
+R9	22k
+R10	4.7M
+R11	47		        	2
+R16	4.7K		    	4
+
+RV1	10K
+RV2	1K			        2
+
+C1	100n			    13
+C2	1u
+C4	10u		        	4
+C5	47u
+C7	22u			        2
+C11	15p			        2
+C16	100p		    	2
+C18	330n			    2
+C21	22p
+
+D1	LED_G_3mm
+D2	LED_R_3mm
+D3	LED_Y_3mm
+D4	1N515B		    	3
+
+IC1	LMC7660	    	(DIP8)
+IC2	AT90USB162    	(TQFP32)
+IC3	CY7C1049DV33	(TSOP2_44)
+IC4	EPM3064-PLCC 	(PLCC44)	(C-PLD)
+IC5	AD9740		    (SOJ28)
+
+J1	Bornera_USB
+J2	Jack_alimentacion
+
+JP1	Boton_reset
+JP2	Boton_hwboot
+JP3	MODOAC
+JP4	CLOCK
+
+P1	Bornera
+P2	Programador_uc
+P3	PROG_CPLD
+P4	CONN_15_1MM
+
+U1	LM317
+U2	74HC04	    	(DIP14)
+U3	OPA2355		    (MSOP10-0.5)
+
+X1	Cristal 8_MHz
+X2	Cristal 20_MHz
+X3	ACHL-20 	    (DIP8)

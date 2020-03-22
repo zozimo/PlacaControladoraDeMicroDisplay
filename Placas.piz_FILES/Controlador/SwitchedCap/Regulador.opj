@@ -1,0 +1,135 @@
+(ExpressProject "Regulador"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (Sort User)
+      (File ".\regulador.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\regulador.olb")))
+    (NoModify)
+    (File ".\regulador.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "0")
+    (ANNOTATE_Action "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}"))
+  (Folder "Outputs"
+    (File ".\regulador-schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\regulador-schematic1-trans.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\regulador-schematic1-trans.sim"
+        (DisplayName "SCHEMATIC1-trans")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\regulador.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\regulador.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\EDIODE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (D1N5819
+      (FullPartName "D1N5819.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (IPULSE
+      (FullPartName "IPULSE.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (BSS110/SIE
+      (FullPartName "BSS110/SIE.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\SIEMENS.OLB")
+      (DeviceIndex "0"))
+    (BS170/SIE
+      (FullPartName "BS170/SIE.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\SIEMENS.OLB")
+      (DeviceIndex "0"))
+    (2N7002/PLP
+      (FullPartName "2N7002/PLP.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\PHIL_FET.OLB")
+      (DeviceIndex "0"))
+    (PMBF170/PLP
+      (FullPartName "PMBF170/PLP.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\PHIL_FET.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PARAM
+      (FullPartName "PARAM.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (MbreakP
+      (FullPartName "MbreakP.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MbreakN
+      (FullPartName "MbreakN.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 0 200 0 431"))
+      (Tab 0)))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Archivos de programa\Orcad\Capture\library\PSpice"))

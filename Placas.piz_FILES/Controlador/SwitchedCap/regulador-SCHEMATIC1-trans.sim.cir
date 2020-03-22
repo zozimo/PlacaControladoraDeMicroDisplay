@@ -1,0 +1,22 @@
+** Profile: "SCHEMATIC1-trans"  [ D:\Ariel\Mis documentos\Facultad\Tesis\prueba\SwitchedCap\regulador-schematic1-trans.sim ] 
+
+** Creating circuit file "regulador-schematic1-trans.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+.LIB ".\regulador.lib" 
+* From [PSPICE NETLIST] section of c:\archivos de programa\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100m 0 SKIPBP 
+.OPTIONS ABSTOL= 1u
+.OPTIONS CHGTOL= 0.01u
+.OPTIONS RELTOL= 0.02
+.OPTIONS VNTOL= 1u
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\regulador-SCHEMATIC1.net" 
+
+
+.END

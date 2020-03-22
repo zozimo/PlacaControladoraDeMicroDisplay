@@ -1,0 +1,9 @@
+Fitter Status : Successful - Thu Aug 19 19:02:55 2010
+Quartus II Version : 8.0 Build 215 05/29/2008 SJ Web Edition
+Revision Name : Controlador
+Top-level Entity Name : CONTROLADOR
+Family : MAX3000A
+Device : EPM3064ALC44-4
+Timing Models : Final
+Total macrocells : 49 / 64 ( 77 % )
+Total pins : 30 / 34 ( 88 % )

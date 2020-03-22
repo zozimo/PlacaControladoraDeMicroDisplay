@@ -1,0 +1,61 @@
+EESchema-DOCLIB  Version 2.0  03/08/2009 16:37:13
+#
+$CMP 74HCT04
+D Hex Inverseur
+K HCTMOS not inv
+$ENDCMP
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP CONN_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_3
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_3X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_5X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CP
+D Condensateur polarise
+$ENDCMP
+#
+$CMP DIODESCH
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP LM317
+D Linear Regulator (adjustable)
+K POWER REGUL
+F regulator/lm117.pdf
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP USB_1
+D USB Connector
+K USB usb CONNECTOR connector
+$ENDCMP
+#
+#End Doc Library

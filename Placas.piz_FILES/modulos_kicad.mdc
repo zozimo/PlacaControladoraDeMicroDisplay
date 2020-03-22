@@ -1,0 +1,50 @@
+PCBNEW-LibDoc----V1  Tue 12 Jan 2010 23:34:22 ART
+#
+$MODULE TSOP2_44
+Li TSOP2_44
+Cd Module CMS TSOP2 44 pins
+Kw CMS TSOP2
+$EndMODULE
+#
+$MODULE SOJ28
+Li SOJ28
+Cd Module CMS SOJ 32 pins
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE HC_OSC
+Li HC_OSC
+Cd Quartz boitier HC-18U vertical
+Kw QUARTZ DEV
+$EndMODULE
+#
+$MODULE CONN_5x2
+Li CONN_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE CONN_3x2
+Li CONN_3x2
+Cd Double rangee de contacts 2 x 3 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE SOIC20
+Li SOIC20
+Cd Cms SOJ 20 pins large
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE DIP40MBED
+Li DIP40MBED
+Cd Module Dip 40 pins, pads elliptiques, e= 1 pouce
+Kw DIL
+$EndMODULE
+#
+$MODULE RJ45
+Li RJ45
+Kw RJ45
+$EndMODULE
+#
+$EndLIBDOC

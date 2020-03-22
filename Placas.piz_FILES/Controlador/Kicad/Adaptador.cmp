@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = 11/08/2009 14:57:52
+
+BeginCmp
+TimeStamp = /4A773DA0;
+Reference = P1;
+ValeurCmp = CONN_15_1MM;
+IdModule  = CONN15_1MM_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A773DA7;
+Reference = P2;
+ValeurCmp = CONN_15_0.5MM;
+IdModule  = CONN_15_05MM_SMD;
+EndCmp
+
+EndListe

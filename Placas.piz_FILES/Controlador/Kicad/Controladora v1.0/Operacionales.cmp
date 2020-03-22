@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = 15/08/2009 21:17:58
+
+BeginCmp
+TimeStamp = /4A833EF1;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A832BEA;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = PIN1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A832BF5;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PIN1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A833A2D;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = PIN1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A8338A7;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = PIN1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A8338B5;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = PIN1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A8338B2;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = PIN1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A8338B8;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = PIN1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A874D00;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = PIN1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A875009;
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = PIN1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A8339FC;
+Reference = R1;
+ValeurCmp = 22;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A833726;
+Reference = R2;
+ValeurCmp = 4.7K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A848BF6;
+Reference = R3;
+ValeurCmp = 4.7K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A848BFA;
+Reference = R4;
+ValeurCmp = 47;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A833747;
+Reference = R5;
+ValeurCmp = 4.7K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A848BFE;
+Reference = R6;
+ValeurCmp = 4.7K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A848C00;
+Reference = R7;
+ValeurCmp = 47;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A8339F1;
+Reference = R8;
+ValeurCmp = 22;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A849ECF;
+Reference = RV1;
+ValeurCmp = 1K;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A849F60;
+Reference = RV2;
+ValeurCmp = 1K;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A832BDE;
+Reference = U1;
+ValeurCmp = OPA2355;
+IdModule  = MSOP10-0.5;
+EndCmp
+
+EndListe

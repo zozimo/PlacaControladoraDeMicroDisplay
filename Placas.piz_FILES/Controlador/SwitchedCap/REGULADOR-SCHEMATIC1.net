@@ -1,0 +1,31 @@
+* source REGULADOR
+M_M1         +V CK1 N00307 -V Mbreakn           
+D_D7         OUT2 N14723 D1N4148 
+C_C4         N14723 N16084  10u  
+R_R1         OUT2 0  100k  
+M_M8         0 NCK1 N09175 +V Mbreakp           
+M_M3         N00307 NCK1 +V +V Mbreakp           
+M_M4         OUT NCK2 N09175 +V MbreakP           
+C_C1         N12822 N00307  10u  
+V_V6         NCK2 0  
++PULSE {VH} {VL} {PER/2} {TR} {TF} {PW} {PER}
+V_V2         0 -V 3.3
+V_V3         CK1 0  
++PULSE {VL} {VH} 0 {TR} {TF} {PW} {PER}
+R_R5         N09175 N16084  .01  
+M_M7         N00307 NCK2 0 +V MbreakP           
+C_C2         N12606 0  10u  
+M_M6         N09175 CK1 0 -V Mbreakn           
+R_R4         N15629 0  .01  
+V_V4         NCK1 0  
++PULSE {VH} {VL} 0 {TR} {TF} {PW} {PER}
+M_M2         N09175 CK2 OUT -V Mbreakn           
+M_M5         0 CK2 N00307 -V Mbreakn           
+V_V5         CK2 0  
++PULSE {VL} {VH} {PER/2} {TR} {TF} {PW} {PER}
+D_D6         N14723 OUT D1N4148 
+V_V1         +V 0 3.3
+R_R3         N12822 N09175  .01  
+C_C3         OUT2 N15629  10u  
+R_R2         N12606 OUT  .01  
+.PARAM  TF={0.01*PER} VH=3.3 PW={0.45*PER} VL=-3.3 PER=100u TR={0.01*PER}

@@ -1,0 +1,7 @@
+* PSpice Model Editor - Version 9.2
+
+*$
+.model Mbreakp PMOS kp=50m vto=-1
+*$
+.model Mbreakn NMOS kp=50m vto=1
+*$

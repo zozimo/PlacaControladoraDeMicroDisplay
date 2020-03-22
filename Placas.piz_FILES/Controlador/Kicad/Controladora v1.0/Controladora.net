@@ -1,0 +1,679 @@
+# EESchema Netlist Version 1.1 created  04/05/2009 15:05:10
+(
+ ( /49EA20A1 C2 C1 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /49EB2EC8 C1V5 C2 1u
+  ( 1 N-000020 )
+  ( 2 GND )
+ )
+ ( /49EA21F9 C2 C3 100n
+  ( 1 N-000044 )
+  ( 2 GND )
+ )
+ ( /49EA21E5 C1V5 C4 10u
+  ( 1 N-000009 )
+  ( 2 N-000074 )
+ )
+ ( /49EA21F0 C1V5 C5 47u
+  ( 1 N-000044 )
+  ( 2 GND )
+ )
+ ( /49EA2096 C2 C6 100n
+  ( 1 /VCC3.3 )
+  ( 2 GND )
+ )
+ ( /49EA21E0 C1V5 C7 10u
+  ( 1 GND )
+  ( 2 /VCC-5 )
+ )
+ ( /49EA21F7 C1V5 C8 22u
+  ( 1 /VCC3.3 )
+  ( 2 GND )
+ )
+ ( /49EA21FC C2 C9 100n
+  ( 1 /VCC3.3 )
+  ( 2 GND )
+ )
+ ( /49EA24AA C1V5 C10 10u
+  ( 1 /RST )
+  ( 2 GND )
+ )
+ ( /49EA2248 C2 C11 4.7p
+  ( 1 /XTAL1 )
+  ( 2 GND )
+ )
+ ( /49EA224B C2 C12 4.7p
+  ( 1 /XTAL2 )
+  ( 2 GND )
+ )
+ ( /49EA20A4 C2 C13 100n
+  ( 1 /VCC3.3 )
+  ( 2 GND )
+ )
+ ( /49EA209E C2 C14 100n
+  ( 1 /VCC3.3 )
+  ( 2 GND )
+ )
+ ( /49EA20A6 C2 C15 100n
+  ( 1 /VCC3.3 )
+  ( 2 GND )
+ )
+ ( /49EB4580 C2 C16 100p
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /49EA2415 C2 C17 100n
+  ( 1 N-000071 )
+  ( 2 GND )
+ )
+ ( /49EA20D5 C2 C18 330n
+  ( 1 /VID0 )
+  ( 2 /VIDH )
+ )
+ ( /49EA20D8 C2 C19 330n
+  ( 1 /VID1 )
+  ( 2 /VIDL )
+ )
+ ( /49EA20CC C2 C20 100n
+  ( 1 /VCC3.3 )
+  ( 2 GND )
+ )
+ ( /49EB4589 C2 C21 22p
+  ( 1 N-000005 )
+  ( 2 N-000077 )
+ )
+ ( /49EB4584 C2 C22 100p
+  ( 1 N-000077 )
+  ( 2 GND )
+ )
+ ( /49EA295D C2 C23 100n
+  ( 1 /VCC-5 )
+  ( 2 GND )
+ )
+ ( /49EB457D C2 C24 100n
+  ( 1 /VCC3.3 )
+  ( 2 GND )
+ )
+ ( /49EB8C2D C2 C25 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /49EB8C35 C1V5 C26 10u
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /49EB1B31 LED-3MM D1 LED_G_3mm
+  ( 1 N-000028 )
+  ( 2 GND )
+ )
+ ( /49EA2442 D3 D2 DIODESCH
+  ( 1 N-000047 )
+  ( 2 N-000044 )
+ )
+ ( /49EA246B LED-3MM D3 LED_R_3mm
+  ( 1 N-000043 )
+  ( 2 GND )
+ )
+ ( /49EA2470 LED-3MM D4 LED_Y_3mm
+  ( 1 N-000045 )
+  ( 2 GND )
+ )
+ ( /49EB4318 DIP-8__300_ELL IC1 LMC7660
+  ( 1 ? )
+  ( 2 N-000009 )
+  ( 3 GND )
+  ( 4 N-000074 )
+  ( 5 /VCC-5 )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 +5V )
+ )
+ ( /49EA2056 TQFP32 IC2 AT90USB162
+  ( 1 /XTAL1 )
+  ( 2 /XTAL2 )
+  ( 3 GND )
+  ( 4 /VCC3.3 )
+  ( 5 /OE )
+  ( 6 /DATA0 )
+  ( 7 /DATA1 )
+  ( 8 /DATA2 )
+  ( 9 /DATA3 )
+  ( 10 /DATA4 )
+  ( 11 /DATA5 )
+  ( 12 /DATA6 )
+  ( 13 /DATA7 )
+  ( 14 /ADDR17 )
+  ( 15 /SCK )
+  ( 16 /MOSI )
+  ( 17 /MISO )
+  ( 18 /PDR )
+  ( 19 /SLEEP )
+  ( 20 /WE )
+  ( 21 /CLR )
+  ( 22 /INV0 )
+  ( 23 /INV1 )
+  ( 24 /RST )
+  ( 25 /LRojo )
+  ( 26 /LVerde )
+  ( 27 N-000020 )
+  ( 28 /UGND )
+  ( 29 /D+ )
+  ( 30 /D- )
+  ( 31 /UVCC )
+  ( 32 /VCC3.3 )
+ )
+ ( /49EA3CA6 TSOP2_44 IC3 CY7C1049DV33
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 /ADDR00 )
+  ( 4 /ADDR01 )
+  ( 5 /ADDR02 )
+  ( 6 /ADDR03 )
+  ( 7 /ADDR04 )
+  ( 8 /SLEEP )
+  ( 9 /DATA0 )
+  ( 10 /DATA1 )
+  ( 11 /VCC3.3 )
+  ( 12 GND )
+  ( 13 /DATA2 )
+  ( 14 /DATA3 )
+  ( 15 /WE )
+  ( 16 /ADDR05 )
+  ( 17 /ADDR06 )
+  ( 18 /ADDR07 )
+  ( 19 /ADDR08 )
+  ( 20 /ADDR09 )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 /ADDR10 )
+  ( 27 /ADDR11 )
+  ( 28 /ADDR12 )
+  ( 29 /ADDR13 )
+  ( 30 /CTCK )
+  ( 31 /DATA4 )
+  ( 32 /DATA5 )
+  ( 33 /VCC3.3 )
+  ( 34 GND )
+  ( 35 /DATA6 )
+  ( 36 /DATA7 )
+  ( 37 /OE )
+  ( 38 /ADDR15 )
+  ( 39 /ADDR16 )
+  ( 40 /ADDR17 )
+  ( 41 /SCK )
+  ( 42 ? )
+  ( 43 ? )
+  ( 44 ? )
+ )
+ ( /49EB30B1 PLCC44 IC4 EPM3064-PLCC
+  ( 1 /CLR )
+  ( 2 /MOSI )
+  ( 3 /VCC3.3 )
+  ( 4 /VS )
+  ( 5 /HS )
+  ( 6 /CK0 )
+  ( 7 /CK1 )
+  ( 8 /INV )
+  ( 9 /LATCH )
+  ( 10 GND )
+  ( 11 /ADDR16 )
+  ( 12 /ADDR15 )
+  ( 13 /ADDR00 )
+  ( 14 /ADDR01 )
+  ( 15 /VCC3.3 )
+  ( 16 /ADDR02 )
+  ( 17 GND )
+  ( 18 /ADDR03 )
+  ( 19 /ADDR04 )
+  ( 20 /ADDR05 )
+  ( 21 /ADDR06 )
+  ( 22 GND )
+  ( 23 /VCC3.3 )
+  ( 24 /ADDR08 )
+  ( 25 /ADDR07 )
+  ( 26 /ADDR10 )
+  ( 27 /ADDR09 )
+  ( 28 /ADDR11 )
+  ( 29 /ADDR12 )
+  ( 30 GND )
+  ( 31 /ADDR13 )
+  ( 32 /CTCK )
+  ( 33 /INV1 )
+  ( 34 /INV0 )
+  ( 35 /VCC3.3 )
+  ( 36 GND )
+  ( 37 ? )
+  ( 38 /CTDO )
+  ( 39 /MISO )
+  ( 40 ? )
+  ( 41 ? )
+  ( 42 GND )
+  ( 43 /CLK )
+  ( 44 /SLEEP )
+ )
+ ( /49EA3CE9 SOJ28 IC5 AD9740
+  ( 1 /DATA7 )
+  ( 2 /DATA6 )
+  ( 3 /DATA5 )
+  ( 4 /DATA4 )
+  ( 5 /DATA3 )
+  ( 6 /DATA2 )
+  ( 7 /DATA1 )
+  ( 8 /DATA0 )
+  ( 9 GND )
+  ( 10 GND )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 /SLEEP )
+  ( 16 GND )
+  ( 17 N-000071 )
+  ( 18 N-000019 )
+  ( 19 ? )
+  ( 20 GND )
+  ( 21 /VID1 )
+  ( 22 /VID0 )
+  ( 23 ? )
+  ( 24 /VCC3.3 )
+  ( 25 ? )
+  ( 26 GND )
+  ( 27 /VCC3.3 )
+  ( 28 /LATCH )
+ )
+ ( /49EA211A USB_B J1 USB_1
+  ( 1 /UVCC )
+  ( 2 N-000075 )
+  ( 3 N-000076 )
+  ( 4 /UGND )
+  ( 5 GND )
+  ( 6 GND )
+ )
+ ( /49EB1956 PIN_ARRAY_2X1 JP1 JUMPER
+  ( 1 /RST )
+  ( 2 GND )
+ )
+ ( /49EB1B75 PIN_ARRAY_2X1 JP2 JUMPER
+  ( 1 /DATA7 )
+  ( 2 GND )
+ )
+ ( /49EA2422 JACK_ALIM K1 CONN_3
+  ( 1 N-000044 )
+  ( 2 GND )
+  ( 3 GND )
+ )
+ ( /49EA244B bornier2 P1 CONN_2
+  ( 1 N-000047 )
+  ( 2 GND )
+ )
+ ( /49EA4F82 PIN_ARRAY_5x2_C P2 CONN_5X2
+  ( 1 /MOSI )
+  ( 2 /VCC3.3 )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 /RST )
+  ( 6 GND )
+  ( 7 /SCK )
+  ( 8 GND )
+  ( 9 /MISO )
+  ( 10 GND )
+ )
+ ( /49EA22D1 PIN_ARRAY_5x2_C P3 CONN_5X2
+  ( 1 /CTCK )
+  ( 2 GND )
+  ( 3 /CTDO )
+  ( 4 /VCC3.3 )
+  ( 5 /ADDR00 )
+  ( 6 GND )
+  ( 7 ? )
+  ( 8 GND )
+  ( 9 /CK1 )
+  ( 10 GND )
+ )
+ ( /49EB2719 CONN15_SMD P4 CONN_15_0.5MM
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 /VIDH )
+  ( 4 /VCC3.3 )
+  ( 5 /CK0 )
+  ( 6 /CK1 )
+  ( 7 /VCC-5 )
+  ( 8 /PDR )
+  ( 9 /NSLEEP )
+  ( 10 /HS )
+  ( 11 /VS )
+  ( 12 /VCC3.3 )
+  ( 13 /INV )
+  ( 14 /VIDL )
+  ( 15 N-000073 )
+ )
+ ( /49EB1B32 R4 R1 470
+  ( 1 /LVerde )
+  ( 2 N-000028 )
+ )
+ ( /49EA2479 R4 R2 470
+  ( 1 /LRojo )
+  ( 2 N-000043 )
+ )
+ ( /49EB4512 R4 R3 22
+  ( 1 N-000075 )
+  ( 2 /D- )
+ )
+ ( /49EB450D R4 R4 22
+  ( 1 N-000076 )
+  ( 2 /D+ )
+ )
+ ( /49EA2201 R4 R5 1.62k
+  ( 1 N-000046 )
+  ( 2 GND )
+ )
+ ( /49EA21FF R4 R6 1k
+  ( 1 /VCC3.3 )
+  ( 2 N-000046 )
+ )
+ ( /49EA247E R4 R7 470
+  ( 1 /VCC3.3 )
+  ( 2 N-000045 )
+ )
+ ( /49EA249D R4 R8 10k
+  ( 1 /VCC3.3 )
+  ( 2 /RST )
+ )
+ ( /49EB1B71 R4 R9 22k
+  ( 1 /VCC3.3 )
+  ( 2 /DATA7 )
+ )
+ ( /49EB459A R4 R10 4.7M
+  ( 1 N-000005 )
+  ( 2 N-000006 )
+ )
+ ( /49EA240E R4 R11 10k
+  ( 1 N-000019 )
+  ( 2 GND )
+ )
+ ( /49EA2410 R4 R12 780
+  ( 1 /VID0 )
+  ( 2 GND )
+ )
+ ( /49EA2412 R4 R13 780
+  ( 1 /VID1 )
+  ( 2 GND )
+ )
+ ( /49EA20E3 R4 R14 10k
+  ( 1 N-000073 )
+  ( 2 GND )
+ )
+ ( /49EB4242 TO220_VERT U1 LM7805
+  ( 1 N-000044 )
+  ( 2 GND )
+  ( 3 +5V )
+ )
+ ( /49EA2218 TO220_VERT U2 LM317
+  ( 1 N-000044 )
+  ( 2 N-000046 )
+  ( 3 /VCC3.3 )
+ )
+ ( /49EB456E DIP-14__300_ELL U3 74HC04
+  ( 1 /SLEEP )
+  ( 2 /NSLEEP )
+  ( 3 N-000006 )
+  ( 4 N-000005 )
+  ( 5 N-000005 )
+  ( 6 N-000078 )
+  ( 7 GND )
+  ( 8 /CLK )
+  ( 9 N-000078 )
+  ( 14 /VCC3.3 )
+ )
+ ( /49EA225F C2 X1 8MHz
+  ( 1 /XTAL1 )
+  ( 2 /XTAL2 )
+ )
+ ( /49EB45A3 C2 X2 20MHz
+  ( 1 N-000006 )
+  ( 2 N-000077 )
+ )
+ ( /49FF2CB9 DIP-8__300 X3 HZOSC
+  ( 1 /SLEEP )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 /CLK )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 /VCC3.3 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
+$component C8
+ CP*
+ SM*
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ CP*
+ SM*
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,9 @@
+PCBNEW-LibDoc----V1  11/05/2009 20:48:45
+#
+$MODULE CONN_5x2
+Li CONN_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+$EndMODULE
+#
+$EndLIBDOC
